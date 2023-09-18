@@ -1,0 +1,14 @@
+213e2d9 Merge pull request #1 from bryce11m/feature-bryce11m
+d38e170 adding file for the hw
+101d316 Merge branch 'features'
+3ecf17b breaking new_features pt 2
+ebc0cee breaking new_features
+98f9c4c Merge branch 'features' I'm merging these because the homework said to
+e58f239 added line to file_1
+345c5fd edited new_features
+fc79800 add empty file
+2eb197c add .gitignore
+a0a85dc add Readme.md
+6c3506a file_2 changes
+a95de30 file_1 change
+9aea9bf create new files

@@ -1,0 +1,93 @@
+    1  git --version
+    2  git --version
+    3  git config --global use.name "Nate Lewis"
+    4  git config --global user.email "nl238@byu.edu"
+    5  git config --global core.editor "code --wait"
+    6  git config --global init.defaultBranch main
+   13  git config --list
+   23  git init
+   26  cd Documents/Fall2023/git_practice/
+   31  git-status
+   32  git status
+   33  git add file_1.txt
+   34  git add file_2.txt
+   35  git status
+   36  git commit -m "create new files"
+   37  git status
+   38  git log
+   39  git config user.email "nl239@byu.edu"
+   40  git config user.email "nl239@byu.edu"
+   41  git log
+   42  git config user.email "nl239@byu.edu"
+   43  git log
+   44  git config --global user.email "nl239@byu.edu"
+   45  git config --global user.email
+   46  cd Documents/Fall2023/git_practice/
+   47  git congig user.email
+   48  git config user.email
+   49  git log
+   50  git status
+   51  git add "file_1.txt"
+   52  git commit -m "file_1 change"
+   53  git status
+   54  git add "file_2.txt"
+   55  git commit -m "file_2 changes"
+   56  git log
+   57  git commit --amend --author="Nathaniel Lewis <nl239@byu.edu>" --no-edit
+   58  git log
+   60  git add Readme.md
+   61  git commit -m "add Readme.md"
+   62  git log
+   64  cd Documents/Fall2023/git_practice/
+   65  git log
+   66  cd Documents/Fall2023/git_practice/
+   67  touch .gitignore
+   68  git add .gitignore
+   69  git commit -m "add .gitignore"
+   71  git status
+   72  git status
+   74  cd Documents/Fall2023/git_practice/
+   75  git branch features
+   76  git switch features
+   77  git log
+   79  git add
+   80  git add new_features.txt
+   81  git commit -m "add empty file"
+   82  git add new_features.txt
+   83  git commit -m "edited new_features"
+   84  git switch main
+   85  git add file_1.txt
+   86  git commit -m "added line to file_1"
+   87  git merge features
+   88  git log
+   89  git add new_features.txt
+   90  git commit -m "breaking new_features"
+   91  git branch features
+   92  git switch features
+   93  git add new_features.txt
+   94  git commit -m "breaking new_features pt 2"
+   95  git switch main
+   96  git merge features
+   97  git branch -d features
+   98  git merge features
+   99  git add "new_features.txt"
+  100  git commit
+  101  git switch features
+  102  git switch main
+  103  git merge features
+  104  git branch -d features
+  105  git remote add origin git@github.com:natelewis17/git-practice-natelewis17.git
+  106  git push -u origin main
+  108  cd Documents/Fall2023/git_practice2/
+  109  git clone git@github.com:natelewis17/git-practice-bryce11m.git
+  110  git branch feature-natelewis17
+  111  cd git-practice-bryce11m/
+  112  git branch feature-natelewis17
+  113  git switch feature-natelewis17
+  115  git add natesfile
+  116  git commit
+  117  git push origin feature-natelewis17
+  119  cd Documents/Fall2023/git_practice
+  120  git pull
+  121  git log --oneline > gitlog.txt
+  122  history | grep git > history.txt
